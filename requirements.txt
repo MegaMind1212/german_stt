@@ -1,6 +1,6 @@
-flask
-torch==2.3.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
-torchaudio==2.3.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
-transformers
-moviepy
-requests
+flask==2.3.2
+torch==2.0.1
+torchaudio==2.0.2
+transformers==4.31.0
+ffmpeg-python==0.2.0
+requests==2.31.0
