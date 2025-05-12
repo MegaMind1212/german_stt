@@ -54,6 +54,7 @@ def convert_to_wav(input_path, output_path):
             .output(output_path, ac=1, ar=16000, acodec='pcm_s16le')
             .overwrite_output()
             .run(quiet=True)
+        )
         return True
     except ffmpeg.Error as e:
         logging.error(f"FFmpeg error: {e.stderr.decode('utf8')}")
