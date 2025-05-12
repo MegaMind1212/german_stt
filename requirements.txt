@@ -1,6 +1,6 @@
 flask
-torch
-torchaudio
+torch==2.3.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+torchaudio==2.3.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
 transformers
 moviepy
 requests
